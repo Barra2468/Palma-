@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Palma Restaurant - Amman, Jordan</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      padding: 0;
+
+      background-color: #fff8f0;
+
+      color: #333;
+
+    }
+
+    header {
+
+      background-color: #c0392b;
+
+      color: white;
+
+      padding: 20px;
+
+      text-align: center;
+
+    }
+
+    header h1 {
+
+      margin: 0;
+
+      font-size: 2.5em;
+
+    }
+
+    nav {
+
+      background-color: #e74c3c;
+
+      display: flex;
+
+      justify-content: center;
+
+      padding: 10px 0;
+
+    }
+
+    nav a {
+
+      color: white;
+
+      text-decoration: none;
+
+      margin: 0 15px;
+
+      font-weight: bold;
+
+    }
+
+    nav a:hover {
+
+      text-decoration: underline;
+
+    }
+
+    section {
+
+      padding: 40px 20px;
+
+      max-width: 1000px;
+
+      margin: auto;
+
+    }
+
+    h2 {
+
+      color: #c0392b;
+
+      text-align: center;
+
+      margin-bottom: 20px;
+
+    }
+
+    .menu-category {
+
+      margin-bottom: 30px;
+
+    }
+
+    .menu-item {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      padding: 5px 0;
+
+      border-bottom: 1px solid #ddd;
+
+    }
+
+    .menu-item:last-child {
+
+      border-bottom: none;
+
+    }
+
+    .gallery img {
+
+      width: 30%;
+
+      margin: 1.66%;
+
+      border-radius: 8px;
+
+    }
+
+    form {
+
+      display: flex;
+
+      flex-direction: column;
+
+      max-width: 500px;
+
+      margin: auto;
+
+    }
+
+    form input, form select, form textarea, form button {
+
+      padding: 10px;
+
+      margin: 5px 0;
+
+      font-size: 1em;
+
+    }
+
+    form button {
+
+      background-color: #c0392b;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+    }
+
+    form button:hover {
+
+      background-color: #e74c3c;
+
+    }
+
+    footer {
+
+      background-color: #c0392b;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 20px;
+
+      margin-top: 40px;
+
+    }
+
+    footer a {
+
+      color: white;
+
+      margin: 0 5px;
+
+      text-decoration: none;
+
+    }
+
+    footer a:hover {
+
+      text-decoration: underline;
+
+    }
+
+    @media (max-width: 768px) {
+
+      .gallery img {
+
+        width: 48%;
+
+        margin: 1%;
+
+      }
+
+    }
+
+    @media (max-width: 480px) {
+
+      .gallery img {
+
+        width: 100%;
+
+        margin: 0 0 10px 0;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+
+  <h1>Palma Restaurant</h1>
+
+  <p>Authentic Mediterranean & Italian Cuisine in Amman, Jordan</p>
+
+</header>
+
+<nav>
+
+  <a href="#about">About Us</a>
+
+  <a href="#menu">Menu</a>
+
+  <a href="#gallery">Gallery</a>
+
+  <a href="#reservation">Reservation</a>
+
+  <a href="#contact">Contact</a>
+
+</nav>
+
+<section id="about">
+
+  <h2>About Us</h2>
+
+  <p>Welcome to Palma Restaurant! We serve authentic Mediterranean and Italian dishes made from the freshest ingredients. Our goal is to provide a warm, family-friendly dining experience where every guest feels at home.</p>
+
+</section>
+
+<section id="menu">
+
+  <h2>Our Menu</h2>
+
+  <div class="menu-category">
+
+    <h3>Appetizers</h3>
+
+    <div class="menu-item"><span>Hummus</span><span>$5</span></div>
+
+    <div class="menu-item"><span>Stuffed Grape Leaves</span><span>$6</span></div>
+
+    <div class="menu-item"><span>Garlic Bread</span><span>$4</span></div>
+
+  </div>
+
+  <div class="menu-category">
+
+    <h3>Salads</h3>
+
+    <div class="menu-item"><span>Greek Salad</span><span>$7</span></div>
+
+    <div class="menu-item"><span>Fattoush</span><span>$6</span></div>
+
+    <div class="menu-item"><span>Caprese Salad</span><span>$8</span></div>
+
+  </div>
+
+  <div class="menu-category">
+
+    <h3>Main Courses</h3>
+
+    <div class="menu-item"><span>Grilled Chicken with Herbs</span><span>$12</span></div>
+
+    <div class="menu-item"><span>Seafood Risotto</span><span>$15</span></div>
+
+    <div class="menu-item"><span>Lamb Kofta</span><span>$14</span></div>
+
+  </div>
+
+  <div class="menu-category">
+
+    <h3>Pizzas</h3>
+
+    <div class="menu-item"><span>Margherita</span><span>$10</span></div>
+
+    <div class="menu-item"><span>Pepperoni</span><span>$11</span></div>
+
+    <div class="menu-item"><span>Seafood Pizza</span><span>$13</span></div>
+
+  </div>
+
+  <div class="menu-category">
+
+    <h3>Pastas</h3>
+
+    <div class="menu-item"><span>Spaghetti Carbonara</span><span>$12</span></div>
+
+    <div class="menu-item"><span>Penne Arrabbiata</span><span>$11</span></div>
+
+    <div class="menu-item"><span>Lasagna</span><span>$13</span></div>
+
+  </div>
+
+  <div class="menu-category">
+
+    <h3>Desserts</h3>
+
+    <div class="menu-item"><span>Tiramisu</span><span>$6</span></div>
+
+    <div class="menu-item"><span>Baklava</span><span>$5</span></div>
+
+    <div class="menu-item"><span>Gelato</span><span>$4</span></div>
+
+  </div>
+
+  <div class="menu-category">
+
+    <h3>Beverages</h3>
+
+    <div class="menu-item"><span>Fresh Juices</span><span>$3</span></div>
+
+    <div class="menu-item"><span>Soft Drinks</span><span>$2</span></div>
+
+    <div class="menu-item"><span>Coffee & Tea</span><span>$3</span></div>
+
+  </div>
+
+</section>
+
+<section id="gallery">
+
+  <h2>Gallery</h2>
+
+  <div class="gallery">
+
+    <img src="https://via.placeholder.com/300x200" alt="Dish 1">
+
+    <img src="https://via.placeholder.com/300x200" alt="Dish 2">
+
+    <img src="https://via.placeholder.com/300x200" alt="Restaurant Interior">
+
+  </div>
+
+</section>
+
+<section id="reservation">
+
+  <h2>Reserve a Table</h2>
+
+  <form>
+
+    <input type="text" placeholder="Your Name" required>
+
+    <input type="email" placeholder="Your Email" required>
+
+    <input type="tel" placeholder="Phone Number" required>
+
+    <input type="date" required>
+
+    <input type="time" required>
+
+    <input type="number" placeholder="Number of Guests" min="1" required>
+
+    <textarea placeholder="Special Requests"></textarea>
+
+    <button type="submit">Reserve Now</button>
+
+  </form>
+
+</section>
+
+<section id="contact">
+
+  <h2>Contact Us</h2>
+
+  <p>Address: Amman, Jordan</p>
+
+  <p>Phone: +962 7 1234 5678</p>
+
+  <p>Email: info@palma-restaurant.com</p>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<footer>
+
+  <p>Follow us: 
+
+    <a href="#">Instagram</a> | 
+
+    <a href="#">Facebook</a>
+
+  </p>
+
+  <p>Open Daily: 11:00 AM - 11:00 PM</p>
+
+  <p>&copy; 2026 Palma Restaurant</p>
+
+</footer>
+
+</body>
+
+</html>
